@@ -1,0 +1,27 @@
+
+"""
+
+One of the errors we often encounter on Windows is the libraries not appearing despite being installed. To prevent this, we need to perform very simple installation and installation checks
+
+
+For example, we installed the opencv library, but it's not visible.
+
+
+- I did pip install opencv-python, but it still didn't appear in my library.
+
+
+Follow the steps below step by step.
+
+"""
+
+pip install opencv-python,
+
+pip3 install opencv-python,
+
+pip install opencv-python --user,
+
+python -m pip install --upgrade opencv-python,
+
+python3 -m pip install --upgrade opencv-python,
+
+py -m pip install opencv-python
